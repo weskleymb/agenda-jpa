@@ -1,4 +1,4 @@
-package helper;
+package br.senac.rn.agenda.helper;
 
 public class FoneHelper {
 

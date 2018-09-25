@@ -1,4 +1,4 @@
-package model;
+package br.senac.rn.agenda.model;
 
 import java.io.Serializable;
 import javax.persistence.Entity;
@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
-import dao.PersistDB;
+import br.senac.rn.agenda.dao.PersistDB;
 
 @Table
 @Entity

@@ -1,4 +1,4 @@
-package dao;
+package br.senac.rn.agenda.dao;
 
 public interface PersistDB {
 

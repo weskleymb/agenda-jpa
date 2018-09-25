@@ -1,4 +1,4 @@
-package dao;
+package br.senac.rn.agenda.dao;
 
 import java.util.List;
 import javax.persistence.EntityManager;

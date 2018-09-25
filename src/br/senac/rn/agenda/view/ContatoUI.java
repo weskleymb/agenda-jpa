@@ -1,7 +1,5 @@
-package view;
+package br.senac.rn.agenda.view;
 
-import controller.ContatoCTRL;
-import helper.FoneHelper;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Toolkit;
@@ -19,7 +17,10 @@ import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
-import model.Contato;
+
+import br.senac.rn.agenda.controller.ContatoCTRL;
+import br.senac.rn.agenda.helper.FoneHelper;
+import br.senac.rn.agenda.model.Contato;
 
 public class ContatoUI extends JFrame {
 

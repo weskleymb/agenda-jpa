@@ -1,8 +1,9 @@
-package controller;
+package br.senac.rn.agenda.controller;
 
-import dao.ContatoDAO;
 import java.util.List;
-import model.Contato;
+
+import br.senac.rn.agenda.dao.ContatoDAO;
+import br.senac.rn.agenda.model.Contato;
 
 public class ContatoCTRL {
 
@@ -36,8 +37,7 @@ public class ContatoCTRL {
     }
     
     public boolean remover(int id) {
-        Contato contato = new Contato();
-        contato.setId(id);
+        Contato contato = dao.select(id);
         return dao.delete(contato);
     }
     

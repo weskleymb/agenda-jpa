@@ -1,11 +1,11 @@
-package dao;
+package br.senac.rn.agenda.dao;
 
 import java.util.List;
 
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
 
-import model.Contato;
+import br.senac.rn.agenda.model.Contato;
 
 public class ContatoDAO extends GenericDAO<Contato> {
 
