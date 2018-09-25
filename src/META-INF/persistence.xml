@@ -7,11 +7,11 @@
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<class>br.senac.rn.agenda.model.Contato</class>
 		<properties>
-			<property name="hibernate.connection.driver_class" value="org.postgresql.Driver" />
-			<property name="hibernate.connection.url" value="jdbc:postgresql://localhost/agenda" />
+			<property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver" />
+			<property name="hibernate.connection.url" value="jdbc:mysql://localhost/agenda?useTimezone=true&amp;serverTimezone=UTC" />
 			<property name="hibernate.connection.username" value="agenda" />
 			<property name="hibernate.connection.password" value="agenda" />
-			<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect" />
 			<property name="hibernate.hbm2ddl.auto" value="update" />
 		</properties>
 	</persistence-unit>
